@@ -1,0 +1,52 @@
+@font-face {
+  font-family: "Outfit";
+  src: url("/assets/fonts/Outfit/Outfit-Regular.ttf") format("ttf"),
+    url("/assets/fonts/Outfit/Outfit-Bold.ttf") format("ttf");
+}
+
+body {
+  margin: 0;
+  background: hsl(212, 45%, 89%);
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  font-family: "Outfit";
+}
+.card {
+  width: 300px;
+  padding: 14px;
+  background-color: hsl(0, 0%, 100%);
+  border-radius: 13px;
+  box-shadow: 1px 1px 36px 0px rgba(0, 0, 0, 0.1);
+  margin-bottom: 20px;
+}
+.card-img > img {
+  width: 300px;
+  border-radius: 13px;
+}
+
+p.card-title {
+  font-weight: bold;
+  font-size: 23px;
+  text-align: center;
+  color: hsl(218, 44%, 22%);
+}
+p.card-text {
+  font-weight: 400;
+  font-size: 15px;
+  text-align: center;
+  color: hsl(220, 15%, 55%);
+  padding-left: 20px;
+  padding-right: 20px;
+}
+.attribution {
+  font-family: "Outfit";
+
+  font-size: 11px;
+  text-align: center;
+}
+.attribution a {
+  color: hsl(228, 45%, 44%);
+}
